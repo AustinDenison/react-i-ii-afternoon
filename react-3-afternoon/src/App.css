@@ -1,0 +1,57 @@
+.body {
+  background: rgb(17, 16, 16);
+}
+
+.header-container {
+  width: 100%;
+  height: 100px;
+  background: rgb(82, 170, 251);
+}
+
+header {
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+.App {
+  width:100%;
+  height: 100vh;
+  
+}
+
+.dataContainer {
+  width: 50%;
+  height: 50%;
+  background: white;
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.info {
+  position: absolute;
+  top: 100px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.movies {
+  position: absolute;
+  top: 210px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+}
